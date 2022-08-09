@@ -27,6 +27,9 @@ main{
         
         
     }
+    .wrapper{
+        margin-bottom: 140px;
+    }
 .heading-section{
         width: 531px;
         height: 424px;
@@ -175,6 +178,139 @@ main{
     background-color: #161616;
     
 }
+.title-goal{
+    color: #FFFFFF;
+    justify-content: center;
+    text-align: center;
+    padding-top: 130px;
+    size: 40px;
+    font-weight: 600;
+}
+hr{
+    width: 1320px;
+    height: 0px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: 50px;
+}
+footer{
+    width: 898px;
+    color: #B9B9B9;
+    margin-left: 21.94%;
+    margin-top: 50px;
+    size: 16px;
+}
+.footer-info{
+    padding-left: 35px;
+}
+/*------------------
+     media queries 
+---------------------*/
+    /* mobile devices */
+@media only screen and (max-width:688px){
+    .heading-section{
+        width: 258px;
+        height: 178px;
+        
+        text-align: center;
+    }
+    .container{
+        display: flex;
+        margin-left: 24px;
+        margin-right: 24px;
+        flex-direction: column;
+        width: 334px;
+        height: 530px;
+        align-items: center;
+        justify-content: center;
+        padding-left: 21px;
+        background-color: black;
+        border-radius: 10px;
+    }
+    .banner-side-image {
+        padding-top: 500px;
+        padding-left: 130px;
+        height: 648px;
+    }
+    .banner-side-image img{
+        width: 233px;
+        height: 249px;
+    }
+    .banner-headline-text{
+        width: 258px;
+        height:66px;
+        padding-left: 53px;
+        padding-right: 53px;
+        padding-top: 297px;
+        text-align: center;
+        color: #f9f8f8;
+        font-size: 27px;
+        font-weight: 700;
+        line-height: 40px;
+        
+    }
+    .banner-paragraph-text{
+        width: 296px;
+        height: 48px;
+        padding-left: 38px;
+        padding-right: 38px;
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .watch-live{
+       
+        line-height: 109px;
+        margin-left: 111px;
+        padding: 9px 27px;
+    }
+    .left-bar{
+        background-color: white;
+        margin-top: 0px;
+    }
+    .Upcoming-Match{
+           
+        background-color: #ffffff;
+        color:rgb(37, 36, 36);
+        border: 1px solid black;
+        border-radius: 15px;
+        text-decoration: none;
+        margin-left: 39px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 132px;
+        padding: 18px 30px;
+    }
+    .all-group{
+            
+        background-color: #ffffff;
+        color: black;
+        margin-left: 39px;
+        border-radius: 15px;
+        text-decoration: none;
+        border: .5px solid black;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 63px;
+        
+        padding: 18px 71px;
+       
+    }
+    .top-blogs{
+        grid-template-columns: repeat(1, 1fr);
+        
+        
+        
+    }
+    .goal,.left-bar{
+        display: none;
+    }
+    }
+    
+
+
+
+
+
+
             
             
             
