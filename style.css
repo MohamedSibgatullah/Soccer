@@ -349,13 +349,14 @@ tablet devices
     .banner-side-image img{
         width: 293px;
     }
-    .top-blogs, .goal{
+    .goal{
         display: none;
     }
     .left-bar{
         display: flex;
         flex-direction: row;
         width: 1166px;
+        height: 0px;
         background-color: white;
     }
     .Upcoming-Match{
@@ -376,6 +377,14 @@ tablet devices
         padding: 33px 95px;
         border-radius: 12px;
 
+    }
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    .top-blogs{
+        grid-template-columns: repeat(2, 2fr);
+        margin-left: 311px;
     }
 }
 
