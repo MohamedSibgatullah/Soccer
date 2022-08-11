@@ -82,7 +82,7 @@ main{
 .left-bar{
         height: 312px;
         width: 312px;
-        background-color: black;
+        background-color: rgb(8, 0, 0);
         border-radius: 10px;
         margin-top: 130px;
        
@@ -93,7 +93,7 @@ main{
        
         background-color: #ffffff;
         color: black;
-        
+        border: .5px solid rgb(178, 162, 162);
         border-radius: 5px;
         text-decoration: none;
         margin-left: 39px;
@@ -109,6 +109,7 @@ main{
         background-color: #ffffff;
         color: black;
         margin-left: 39px;
+        border: 0.5px solid rgb(178, 162, 162);
         border-radius: 5px;
         text-decoration: none;
         
@@ -330,6 +331,52 @@ footer{
     width: 136px;
 }
 
+}
+/*-------------- 
+tablet devices
+----------------- */
+@media only screen and (min-width:689px) and (max-width:992px) {
+    .container{
+        margin-left: 309px;
+        margin-right: 10px;
+        padding-left: 78px;
+        margin-right: 65px;
+        width: 885px;
+    }
+    .banner-side-image{
+        padding-left: 0px;
+    }
+    .banner-side-image img{
+        width: 293px;
+    }
+    .top-blogs, .goal{
+        display: none;
+    }
+    .left-bar{
+        display: flex;
+        flex-direction: row;
+        width: 1166px;
+        background-color: white;
+    }
+    .Upcoming-Match{
+        border-radius: 12px;
+        margin-left: 262px;
+        line-height: 0px;
+        padding: 33px 30px;
+    }
+    .all-group{
+        border-radius: 12px;
+        margin-left: 93px;
+        line-height: 0px;
+        padding: 33px 71px;
+    }
+    .Blog{
+        margin-left: 92px;
+        line-height: 0px;
+        padding: 33px 95px;
+        border-radius: 12px;
+
+    }
 }
 
 
