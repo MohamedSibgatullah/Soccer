@@ -301,10 +301,9 @@ padding-left: 35px;
 }
 .top-blogs{
     grid-template-columns: repeat(1, 1fr);
-    
-    
-    
+    margin-top: 24px;
 }
+.blogs{margin-left: 0px;}
 .goal{
     display: flex;
     flex-direction: column;
@@ -321,7 +320,7 @@ footer{
     flex-direction: column;
     align-items: center;
     width:0px;
-    padding-left: 86px;
+    padding-left: 104px;
     
 }
 .footer-info{
@@ -337,7 +336,7 @@ tablet devices
 ----------------- */
 @media only screen and (min-width:689px) and (max-width:992px) {
     .container{
-        margin-left: 309px;
+        margin-left: 471px;
         margin-right: 10px;
         padding-left: 78px;
         margin-right: 65px;
@@ -349,15 +348,14 @@ tablet devices
     .banner-side-image img{
         width: 293px;
     }
-    .goal{
-        display: none;
-    }
+    
     .left-bar{
         display: flex;
         flex-direction: row;
         width: 1166px;
         height: 0px;
         background-color: white;
+        margin-left: 171px;
     }
     .Upcoming-Match{
         border-radius: 12px;
@@ -384,7 +382,20 @@ tablet devices
     }
     .top-blogs{
         grid-template-columns: repeat(2, 2fr);
-        margin-left: 311px;
+        margin-left: 477px;
+    }
+    .goal{
+        height: 569px;
+    }
+    .title-goal{
+        padding-left: 412px;
+    }
+    footer{
+        margin-left: 709px;
+        width: 630px;
+    }
+    #footer-last-two{
+        padding-left: 220px;
     }
 }
 
