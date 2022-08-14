@@ -22,10 +22,6 @@ main{
     padding-left: 139px;
     padding-right: 140px;
     margin-top: 39px;
-    
-    
-    
-    
 }
 .wrapper{
     margin-bottom: 140px;
@@ -76,6 +72,7 @@ main{
         line-height: 23px;
         padding: 10px 40px;
     }
+    
     /*--------------------------------
             left menu bar style
     ----------------------------------*/
@@ -132,6 +129,10 @@ main{
         line-height: 114px;
         
         padding: 18px 95px;
+    }
+    .fa-angle-right{
+        padding-left: 10px;
+        color: #fcf9f9;
     }
     
 .wrapper{
@@ -208,24 +209,24 @@ padding-left: 35px;
 ---------------------*/
 /* mobile devices */
 @media only screen and (max-width:688px){
-.heading-section{
-    width: 258px;
-    height: 178px;
-    
-    text-align: center;
-}
 .container{
     display: flex;
-    margin-left: 24px;
-    margin-right: 24px;
+    margin-left: 21px;
+    margin-right: 20px;
     flex-direction: column;
     width: 334px;
-    height: 530px;
+    height: 472px;
     align-items: center;
     justify-content: center;
     padding-left: 21px;
     background-color: black;
     border-radius: 10px;
+}
+.heading-section{
+    width: 258px;
+    height: 178px;
+    
+    text-align: center;
 }
 .banner-side-image {
     padding-top: 500px;
@@ -237,42 +238,43 @@ padding-left: 35px;
     height: 249px;
 }
 .banner-headline-text{
-    width: 258px;
-    height:66px;
-    padding-left: 53px;
-    padding-right: 53px;
-    padding-top: 297px;
+    width: 228px;
+    height: 66px;
+    padding-left: 69px;
+    padding-top: 334px;
     text-align: center;
     color: #f9f8f8;
-    font-size: 27px;
+    font-size: 22px;
     font-weight: 700;
-    line-height: 40px;
-    
+    line-height: 33px;
 }
 .banner-paragraph-text{
-    width: 296px;
+    width: 258px;
     height: 48px;
-    padding-left: 38px;
+    padding-left: 59px;
     padding-right: 38px;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 26px;
 }
+.paragrapg-text-elipsis{
+    display: none;}
 .watch-live{
    
-    line-height: 109px;
+    
     margin-left: 111px;
-    padding: 9px 27px;
+    padding: 10px 11px;
 }
 .wrapper{
     display: flex;
     flex-direction: column;
+    margin-bottom: 23px;
 }
 .left-bar{
     background-color: white;
     margin-top: 0px;
+    margin-left: 0px;
 }
 .Upcoming-Match{
-       
     background-color: #ffffff;
     color:rgb(37, 36, 36);
     border: 1px solid black;
@@ -281,11 +283,10 @@ padding-left: 35px;
     margin-left: 39px;
     font-weight: 500;
     font-size: 20px;
-    line-height: 132px;
-    padding: 18px 30px;
+    line-height: 133px;
+    padding: 13px 30px;
 }
 .all-group{
-        
     background-color: #ffffff;
     color: black;
     margin-left: 39px;
@@ -294,26 +295,30 @@ padding-left: 35px;
     border: .5px solid black;
     font-weight: 500;
     font-size: 20px;
-    line-height: 63px;
-    
-    padding: 18px 71px;
-   
+    line-height: 41px;
+    padding: 13px 71px;
+}
+.Blog{
+    border-radius: 19px;
+    padding: 17px 95px;
 }
 .top-blogs{
     grid-template-columns: repeat(1, 1fr);
-    margin-top: 24px;
+    margin-top: 0px;
 }
-.blogs{margin-left: 0px;}
+.blogs{
+    margin-left: 0px;}
 .goal{
     display: flex;
     flex-direction: column;
-    height: 650px;
-    
-    
+    height: 515px;
+    margin-top: -109px;
+}
+.title-goal{
+    padding-top: 47px;
 }
 .goal, hr, .title-goal{
     width: 350px;
-    
 }
 footer{
     display: flex;
@@ -321,7 +326,6 @@ footer{
     align-items: center;
     width:0px;
     padding-left: 104px;
-    
 }
 .footer-info{
     padding: 7px;
@@ -329,52 +333,102 @@ footer{
     justify-content: center;
     width: 136px;
 }
-
 }
 /*-------------- 
 tablet devices
 ----------------- */
 @media only screen and (min-width:689px) and (max-width:992px) {
     .container{
-        margin-left: 471px;
-        margin-right: 10px;
-        padding-left: 78px;
-        margin-right: 65px;
-        width: 885px;
+        display: flex;
+        flex-direction: row;
+        
+        padding-left: 76px;
+        margin-right: 50px;
+        margin-left: 50px;
+        width: 734px;
+        height: 398px;
+    }
+    .heading-section{
+        width: 316px;
+    }
+    .banner-headline-text{
+        width: 289px;
+        height: 150px;
+        font-size: 40px;
+        line-height: 50px;
+        margin-top: 61px;
     }
     .banner-side-image{
         padding-left: 0px;
     }
     .banner-side-image img{
-        width: 293px;
+        width: 323px;
+        height: 340px;
+        
     }
-    
+    .banner-paragraph-text{
+        width:316px;
+        height: 48px;
+        font-size: 14px;
+        font-weight: 400px;
+        line-height: 24px;
+        padding-bottom: 0px;
+        /* overflow: hidden; */
+    }
+    .paragrapg-text-elipsis{
+        display: none;
+        
+    }
+    .watch-live{
+        width: 161px;
+        height: 48px;
+    }
     .left-bar{
         display: flex;
         flex-direction: row;
-        width: 1166px;
         height: 0px;
+        width: 651px;
+        margin-left: 71px;
+        align-items: center;
+        justify-content: center;
+        
+        
         background-color: white;
-        margin-left: 171px;
+        
     }
     .Upcoming-Match{
+        width: 230px;
+        height: 64px;
         border-radius: 12px;
-        margin-left: 262px;
-        line-height: 0px;
-        padding: 33px 30px;
+        padding: 20px 15px;
+        align-items: center;
+        justify-content: center;
     }
     .all-group{
         border-radius: 12px;
-        margin-left: 93px;
+        margin-left: 22px;
         line-height: 0px;
-        padding: 33px 71px;
+        padding: 20px 47px;
+        align-items: center;
+        justify-content: center;
     }
     .Blog{
-        margin-left: 92px;
+        margin-left: 11px;
         line-height: 0px;
-        padding: 33px 95px;
+        padding: 20px 67px;
         border-radius: 12px;
-
+        align-items: center;
+        justify-content: center;
+    }
+    .blogs{
+        width: 357px;
+    }
+    .blog-info{
+        width: 311px;
+    }
+    .thumnail img{
+        width: 357px;
+        width: 200px;
     }
     .wrapper{
         display: flex;
@@ -382,20 +436,30 @@ tablet devices
     }
     .top-blogs{
         grid-template-columns: repeat(2, 2fr);
-        margin-left: 477px;
+        margin-left: 50px;
+        
     }
     .goal{
-        height: 569px;
+        width: 734px;
+        height: 435px;
+        margin-left: 12x;
     }
     .title-goal{
-        padding-left: 412px;
+        
+    }
+    hr{
+        width: 734px;
     }
     footer{
-        margin-left: 709px;
         width: 630px;
+        margin-left: 138px;
     }
     #footer-last-two{
-        padding-left: 220px;
+        padding-left: 32px;
+        margin-left: 133px;
+    }
+    .footer-info{
+        padding-left: 8px;
     }
 }
 
