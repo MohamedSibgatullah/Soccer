@@ -7,13 +7,9 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    
-    
 }
 .container{
     display: flex;
-    
-    
     box-sizing:border-box;
     height: 646px;
     width: 1321px;
@@ -33,14 +29,10 @@ main{
 .banner-side-image {
     padding-top: 33px;
     padding-left: 200px;
-
-    
     }
 .banner-side-image img{
-       
         height: 612px;
         width: 472px;
-        
     }
 .banner-headline-text{
         width: 510px;
@@ -48,10 +40,8 @@ main{
         color: #f9f8f8;
         font-size: 60px;
         line-height: 70px;
-        
         margin-top: 111px;
     }
-
 .banner-paragraph-text{
         color: #fcf9f9;
         font-weight: 400px;
@@ -59,11 +49,9 @@ main{
         line-height: 26px;
         width: 506px;
         height: 78px;
-        
         padding-bottom: 40px;
     }
 .watch-live{
-        
         background-color:#DD0000;;
         border-radius: 5px;
         color: #ffffff;
@@ -82,12 +70,8 @@ main{
         background-color: rgb(8, 0, 0);
         border-radius: 10px;
         margin-top: 130px;
-       
-        
     }
-    
 .Upcoming-Match{
-       
         background-color: #ffffff;
         color: black;
         border: .5px solid rgb(178, 162, 162);
@@ -97,117 +81,108 @@ main{
         font-weight: 500;
         font-size: 20px;
         line-height: 132px;
-       
         padding: 18px 30px;
-           
     }
 .all-group{
-        
         background-color: #ffffff;
         color: black;
         margin-left: 39px;
         border: 0.5px solid rgb(178, 162, 162);
         border-radius: 5px;
         text-decoration: none;
-        
         font-weight: 500;
         font-size: 20px;
         line-height: 63px;
-        
         padding: 18px 71px;
-       
     }
 .Blog{
         background-color: red;
         color:white;
-        
         border-radius: 5px;
         text-decoration: none;
         margin-left: 39px;
         font-weight: 500;
         font-size: 20px;
         line-height: 114px;
-        
         padding: 18px 95px;
     }
     .fa-angle-right{
         padding-left: 10px;
         color: #fcf9f9;
     }
-    
-.wrapper{
-display:flex;
-}
-.thumnail{
-width: 312px;
-height: 175px;
-}
-.blog-info{
-width: 272px;
-height: 54px;
-font-weight: 500;
-font-size: 16px;
-}
-.blog-detail{
-padding-bottom:px ;
-height: 26px;
-width: 143px;
-}
-#button{
-background-color: white;
-color:#161616;
-border: .5px solid black;
-border-radius: 3px;
-line-height: 24px;
-}
-.top-blogs{
-display: grid;
-grid-template-columns: repeat(3, 3fr);
-margin-top: 130px;
+        .wrapper{
+        display:flex;
+        }
+        .thumnail{
+        width: 312px;
+        height: 175px;
+        }
+        .blog-info{
+        width: 272px;
+        height: 54px;
+        font-weight: 500;
+        font-size: 16px;
+        }
+        .blog-detail{
+        padding-bottom:px ;
+        height: 26px;
+        width: 143px;
+        }
+        #button{
+        background-color: white;
+        color:#161616;
+        border: .5px solid black;
+        border-radius: 3px;
+        line-height: 24px;
+        }
+        .top-blogs{
+        display: grid;
+        grid-template-columns: repeat(3, 3fr);
+        margin-top: 130px;
 
-}
-.blogs{
-margin-left: 23px;
-height: 362px;
+        }
+        .blogs{
+        margin-left: 23px;
+        height: 362px;
 
-}
-.comment-icon{
-padding-left: 35px;
-}
-.goal{
-width: 1600px;
-height: 444px;
-background-color: #161616;
+        }
+        .comment-icon{
+        padding-left: 35px;
+        }
+        .goal{
+        width: 1600px;
+        height: 444px;
+        background-color: #161616;
 
-}
-.title-goal{
-color: #FFFFFF;
-justify-content: center;
-text-align: center;
-padding-top: 130px;
-size: 40px;
-font-weight: 600;
-}
-hr{
-width: 1320px;
-height: 0px;
-border: 1px solid rgba(255, 255, 255, 0.1);
-margin-top: 50px;
-}
-footer{
-width: 898px;
-color: #B9B9B9;
-margin-left: 21.94%;
-margin-top: 50px;
-size: 16px;
-}
-.footer-info{
-padding-left: 35px;
-}
-/*------------------
- media queries 
----------------------*/
-/* mobile devices */
+        }
+        .title-goal{
+        color: #FFFFFF;
+        justify-content: center;
+        text-align: center;
+        padding-top: 130px;
+        size: 40px;
+        font-weight: 600;
+        }
+        hr{
+        width: 1320px;
+        height: 0px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        margin-top: 50px;
+        }
+        footer{
+        width: 898px;
+        color: #B9B9B9;
+        margin-left: 21.94%;
+        margin-top: 50px;
+        size: 16px;
+        }
+        .footer-info{
+        padding-left: 35px;
+        }
+        /*------------------
+        media queries 
+        ---------------------*/
+        /* mobile devices */
 @media only screen and (max-width:688px){
 .container{
     display: flex;
@@ -225,7 +200,6 @@ padding-left: 35px;
 .heading-section{
     width: 258px;
     height: 178px;
-    
     text-align: center;
 }
 .banner-side-image {
@@ -259,8 +233,6 @@ padding-left: 35px;
 .paragrapg-text-elipsis{
     display: none;}
 .watch-live{
-   
-    
     margin-left: 111px;
     padding: 10px 11px;
 }
@@ -364,7 +336,6 @@ tablet devices
     .banner-side-image img{
         width: 323px;
         height: 340px;
-        
     }
     .banner-paragraph-text{
         width:316px;
@@ -377,7 +348,6 @@ tablet devices
     }
     .paragrapg-text-elipsis{
         display: none;
-        
     }
     .watch-live{
         width: 161px;
@@ -391,10 +361,7 @@ tablet devices
         margin-left: 71px;
         align-items: center;
         justify-content: center;
-        
-        
         background-color: white;
-        
     }
     .Upcoming-Match{
         width: 230px;
@@ -437,15 +404,11 @@ tablet devices
     .top-blogs{
         grid-template-columns: repeat(2, 2fr);
         margin-left: 50px;
-        
     }
     .goal{
         width: 734px;
         height: 435px;
         margin-left: 12x;
-    }
-    .title-goal{
-        
     }
     hr{
         width: 734px;
